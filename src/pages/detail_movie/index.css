@@ -1,0 +1,62 @@
+button{
+  background-color: #FFFDD0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+}
+
+.home-btn{
+  color: white;
+}
+
+.Row{
+  flex: 2;
+}
+
+.row1{
+  flex: 1;
+}
+.MovieDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .MovieDetail h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .MovieDetail p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .MovieDetail img {
+    max-width: 100%; /* Maksimum lebar gambar adalah lebar elemen yang mengandungnya */
+    max-height: 400px; /* Atur tinggi maksimum gambar sesuai dengan preferensi Anda */
+    margin: 20px;
+    object-fit: contain; /* Atur object-fit sesuai kebutuhan Anda (contoh: contain) */
+  }
+  
+  /* Styling for the back link */
+  .MovieDetail a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0077b6;
+    margin-top: 20px;
+  }
+  
+  .MovieDetail a:hover {
+    text-decoration: underline;
+  }
+  
