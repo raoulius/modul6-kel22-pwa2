@@ -1,6 +1,7 @@
 .profile-cards {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
   }
   
   .profile-card {
