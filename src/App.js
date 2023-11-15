@@ -10,6 +10,7 @@ import LandingPage from "./pages/LandingPage";
 import Header from "./components/header";
 
 
+import Navbar from "./components/navbar/navbar";
 
 import "./App.css";
 import ProfilePage from "./pages/profile/ProfilePage";
@@ -31,16 +32,19 @@ function App() {
   
   return (
     <div className="App">
-      <Header />
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<LandingPage/>} />
-            <Route exact path="/profile" element={<ProfilePage/>} />
-            <Route exact path="/movie-detail/:id" element={<MovieDetail/>} />
-          </Routes>
-      </Router>
-    </div>
-  );
+      
+      
+            <Header />
+            <Navbar />
+            <Router>
+                <Routes>
+                    <Route exact path="/" element={<LandingPage />} />
+                    <Route exact path="/profile" element={<ProfilePage />} />
+                    <Route exact path="/movie-detail/:id" element={<MovieDetail />} />
+                </Routes>
+            </Router>
+        </div>
+    );
 }
 
 
